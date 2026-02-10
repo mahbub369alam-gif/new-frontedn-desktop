@@ -78,7 +78,7 @@ export default function ChatDashboard() {
   }, []);
 
   // ✅ API base
-  const API = process.env.NEXT_PUBLIC_API_BASE || "http://localhost:5000";
+  const API = process.env.NEXT_PUBLIC_API_BASE || "https://backend-sjx2.onrender.com";
 
   // ✅ auth headers
   // Admin pages can authenticate either by:
